@@ -192,16 +192,19 @@ header{
     height: 50px;
     
 }
-.section-primery {
+.section-primery{
+    margin-top: 94px;
+    margin-bottom: 94px
+}
+.section-primery-item {
     
     color: var(--primary-text-color);
     display: flex;
     gap:30px;
+    
 }
-.section-primery>.container{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
+
 .section-primery-text-title {
 
     font-weight: 700;
@@ -348,14 +351,14 @@ background: #FFFFFF;
     /* Prevent the screen reader to skip spaces between words */
     white-space: nowrap;
 }
-.main-look{
+.main-look-button{
     display: flex;
     
     gap: 8px;
     justify-content: center;
    
 }
-.main-look>.container{
+.main-look{
     padding-top: 94px;
     padding-bottom: 94px;
 }
